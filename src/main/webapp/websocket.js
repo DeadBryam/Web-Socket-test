@@ -5,7 +5,7 @@
  */
 
 window.onload = init;
-var socket = new WebSocket("ws://localhost:8080/WebsocketHome/actions");
+var socket = new WebSocket("ws://localhost:8080/testoftest/actions");
 socket.onmessage = onMessage;
 
 function onMessage(event) {
