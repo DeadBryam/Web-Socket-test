@@ -27,7 +27,7 @@ import wb.test.wb.DeviceSessionHandler;
  */
 
 @ApplicationScoped
-@ServerEndpoint("/actions")
+@ServerEndpoint("")
 public class DeviceWebSocketServer {
     
     @Inject
