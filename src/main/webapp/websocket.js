@@ -6,7 +6,7 @@
 
 window.onload = init;
 var host = location.origin.replace(/^http/, 'ws');
-host += "/#/actions";
+host += "/testoftest/actions";
 var socket = new WebSocket(host);
 socket.onmessage = onMessage;
 
