@@ -6,9 +6,8 @@
 
 window.onload = init;
 var host = location.origin.replace(/^http/, 'ws');
-host += "";
+host += "/testoftest/actions";
 var socket = new WebSocket(host);
-socket.send("Here's some text that the server is urgently awaiting!");
 socket.onmessage = onMessage;
 
 function onMessage(event) {
