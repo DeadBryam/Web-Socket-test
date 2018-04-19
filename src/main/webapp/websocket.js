@@ -5,7 +5,7 @@
  */
 
 window.onload = init;
-var socket = new WebSocket("ws://localhost:8080/testoftest/actions");
+var socket = new WebSocket("ws:https://testhok.herokuapp.com/testoftest/actions");
 socket.onmessage = onMessage;
 
 function onMessage(event) {
